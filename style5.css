@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div.h1 {
+    margin-top: 36px;
+    position: absolute;
+    width: 247px;
+    height: 54px;
+    left: 40px;
+    } 
+
+p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 700;
+}
+    
+a.navbar-brand {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0.155em;
+
+    color: #FFFFFF;}
+
+a.nav-link {
+    color: #FFFFFF;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0px;
+    gap: 150px;
+    position: absolute;
+    left: 25px;
+    top: 200px;
+}
+
+.horario{
+    width: 300px;
+    height: 480px;
+    border-radius: 25px;
+}

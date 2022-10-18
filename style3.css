@@ -1,0 +1,32 @@
+div.h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    margin-top: 40px;
+    margin-top: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+a.navbar-brand {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0.155em;
+    
+    color: #FFFFFF;
+}
+
+body {
+    background-image: url(imagens/luva-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+label, fieldset {
+    color: #FFFFFF;
+    font-family: 'Poppins';
+}

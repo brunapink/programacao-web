@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Site da academia Fight House">
+  <meta name="author" content="Bruna Rosa Rodrigues">
+  <meta name="keyboards" content="HTML, CSS, JavaScript e Bootstrap">
+
+  <link rel="stylesheet" href="style3.css">
+  <link href="http://fonts.cdnfonts.com/css/fight-this" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <title>Academia Fight House</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+          <!-- Brand/logo -->
+          <div>
+            <a class="navbar-brand" href="index.html">
+              <img class="rounded-circle" src="\imagens\logo-fight-house.jpeg" alt="logo" style="width:50px;">
+            </a> 
+          </div>
+          
+          <a class="navbar-brand" href="index.html" style="font-family: FightThis, sans-serif;">Fight House</a>
+    
+          <!-- Links -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="fale-conosco.html">Fale Conosco</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="formulario.html">Aula Experimental</a>
+            </li>
+          </ul>
+      
+          <!-- Dropdown -->
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="horarios.html">Horários</a>
+              <a class="dropdown-item" href="eventos.html">Eventos</a>
+            </div>
+          </div>
+        </nav>
+    </header> 
+      
+    <div class="h1">
+      <h1>Agende sua aula experimental</h1>
+  </div>
+
+    <form class="formulario">
+      <div class="form-row">
+          <div class="form-group col-md-6">
+              <label for="nome">Nome</label>
+            <input type="nome" class="form-control" id="nome" placeholder="Nome" value="" required>
+          </div>
+
+          <div class="form-group col-md-6">
+              <label for="email">E-mail</label>
+              <input type="email" class="form-control" placeholder="Digite seu melhor e-mail" id="E-mail" value="" required>
+          </div>
+      </div>
+      
+      <div class="form-row">
+          <div class="form-group col-md-4">
+              <label for="inputCEP">CEP</label>
+              <input type="text" class="form-control" id="inputCEP" placeholder="CEP">
+          </div>
+
+          <div class="form-group col-md-4">
+              <label for="endereco">Endereço</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Rua dos bobos, nº0" required>
+          </div>
+
+          <div class="form-group col-md-4">
+            <label for="inputCity">Cidade</label>
+            <input type="text" class="form-control" id="cidade" placeholder="Cidade">
+          </div>           
+      </div> 
+      
+      <fieldset class="form-group">
+        <div class="row">
+          <legend class="col-form-label col-sm-1 pt-0">Modalidades</legend>
+
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="mt-check" id="mt-check">
+              <label class="form-check-label" for="mt-check">
+                Muay thai
+              </label>
+            </div>
+
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="jj-check" id="jj-check">
+              <label class="form-check-label" for="jj-check">
+                Jiu-jistu
+              </label>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+
+      <div class="col-auto my-1">
+          <label class="mr-sm-2" for="horario">Selecionar horário</label>
+          <select class="custom-select mr-sm-2" id="horario" required>
+              <option selected>Escolher...</option>
+              <option value="1">SEG-12h</option>
+              <option value="2">SEG-18h</option>
+              <option value="3">SEG-21h</option>
+          </select>
+      </div>
+      
+      <div>
+        <button type="button" class="btn btn-danger">Cadastrar</button>
+      </div>
+    </form>  
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
